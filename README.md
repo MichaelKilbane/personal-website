@@ -1,2 +1,2 @@
-# personal-website
+# Michael Kilbane Personal Website
 http://michaelkilbane.com/
