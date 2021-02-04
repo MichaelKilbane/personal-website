@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name=viewport content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Michael Kilbane is a Graphic Designer and Computer Science student from Sydney, Australia." />
+        <meta name=”robots” content="index, follow" />
+
+        <title>Michael Kilbane - Software Engineer</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167202369-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-167202369-1');
+        </script>
+
+    </head>
+    <body class="noscroll">
+
+        <div id="preloader">
+            <div class="logo">
+                <div class="box"></div>
+                <div class="initials">MK</div>
+            </div>
+        </div>
+
+        <div id="nav">
+            <div class="inner">
+                <div class="left fadein top">
+                    <div class="logo" onclick="scrollToElement('#hero')">
+                        <div class="box"></div>
+                        <div class="initials">MK</div>
+                    </div>
+                    <div class="name">MICHAEL KILBANE</div>
+                </div>
+                <div class="right">
+                    <div class="links">
+                        <ol>
+                            <li onclick="scrollToElement('#about')" class="fadein top"><a>ABOUT</a></li>
+                            <li onclick="scrollToElement('#experience')" class="fadein top"><a>EXPERIENCE</a></li>
+                            <li onclick="scrollToElement('#contact')" class="fadein top"><a>CONTACT</a></li>
+                        </ol>
+                    </div>
+                    <div class="resume fadein top">
+                        <a href="Michael_Kilbane_Resume.pdf" target="_blank"><span class="button">RESUME</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <div id="hero">
+                <div class="text">
+                    <div class="hi fadein">MY NAME IS</div>
+                    <div class="name fadein">MICHAEL KILBANE</div>
+                    <p class="description fadein">I'm a Software Engineer and Computer Science student from Sydney, Australia.</p>
+                    <div class="buttons fadein">
+                        <a href="mailto:me@michaelkilbane.com"><span class="button">GET IN TOUCH</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about">
+                <div class="left">
+                    <h1 class="header fadein">ABOUT</h1>
+                    <div class="text fadein">
+                        <p>In case you missed it, my name is Michael Kilbane. I’m a Graphic Designer and Computer Science student from Sydney, Australia.</p>
+                        <p>As I steadily progress through my penultimate year at the <a href="https://www.uow.edu.au/" class="link">University of Wollongong</a>, I’m constantly looking for new ways to challenge myself. If you have an internship or employment opportunity you think I’d be interested in, be sure to hit me up.</p>
+                        <p>Here are some technologies I’ve been working with recently:</p>
+                    </div>
+                    <div class="lists fadein">
+                        <ul class="list">
+                            <li>TypeScript</li>
+                            <li>Java</li>
+                            <li>HTML & CSS</li>
+                        </ul>
+                        <ul class="list">
+                            <li>React</li>
+                            <li>SQL</li>
+                            <li>Gatsby</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="photo fadein">
+                        <div class="bubble"></div>
+                        <div class="image">
+                            <img class="grey" src="assets/images/me-grey.png" alt="" />
+                            <img class="color" src="assets/images/me-color.png" alt="" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="experience">
+                <h1 class="header fadein">EXPERIENCE</h1>
+                <div class="type fadein">
+                    <div class="selector">
+                        <div class="inner">
+                            <div class="title">WORK</div>
+                            <ul>
+                                <li class="devika active" onclick="workSelector('devika')">DEVIKA</li>
+                                <li class="fusionlabs" onclick="workSelector('fusionlabs')">FUSION LABS & HITACHI</li>
+                                <li class="freelance" onclick="workSelector('freelance')">FREELANCE</li>
+                                <li class="metforce" onclick="workSelector('metforce')">METFORCE PTY LTD</li>
+                                <li class="wits" onclick="workSelector('wits')">WOLLONGONG IT SOCIETY</li>
+                                <li class="dancewize" onclick="workSelector('dancewize')">DANCEWIZE NSW</li>
+                                <li class="farmers" onclick="workSelector('farmers')">SHIRE FARMERS MARKET</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="devika active">
+                            <div class="details">2020 - PRESENT  |  DEVIKA</div>
+                            <div class="title">Junior Software Engineer</div>
+                            <ul class="list">
+                                <li>Worked in TypeScript and React to deliver several client projects.</li>
+                                <li>Developed build tooling to speed up development and encourage adherence to DRY principles.</li>
+                                <li>Created user interface designs using Figma.</li>
+                            </ul>
+                        </div>
+                        <div class="fusionlabs">
+                            <div class="details">2020  |  FUSION LABS & HITACHI</div>
+                            <div class="title">Innovation Research Intern</div>
+                            <ul class="list">
+                                <li>Conducted industry research into the provided problem area, identifying pain points and possible business opportunities.</li>
+                                <li>Worked in a team of four, going from broad idea to pitch deck and prototype in two months.</li>
+                                <li>Inducted as part of the first phase in Hitachi's accelerator program.</li>
+                            </ul>
+                        </div>
+                        <div class="freelance">
+                            <div class="details">2015 - 2020  |  FREELANCE</div>
+                            <div class="title">Graphic & Web Designer</div>
+                            <ul class="list">
+                                <li>Learned and applied key design principles.</li>
+                                <li>Employed the use of various web technologies.</li>
+                                <li>Worked effectively with stakeholders to produce high quality end products.</li>
+                            </ul>
+                        </div>
+                        <div class="metforce">
+                            <div class="details">2018 - 2020  |  METFORCE PTY LTD</div>
+                            <div class="title">Sales Representative</div>
+                            <ul class="list">
+                                <li>Broadened communication skills through customer service duties.</li>
+                                <li>Responsibilities also include all office IT tasks, promotional design tasks, and server maintenance tasks.</li>
+                            </ul>
+                        </div>
+                        <div class="wits">
+                            <div class="details">2019 - PRESENT  |  WOLLONGONG IT SOCIETY (VOLUNTEER)</div>
+                            <div class="title">Hackathon Organiser</div>
+                            <ul class="list">
+                                <li>Led the organisation of a multidisciplinary hackathon entitled Hackagong, playing key roles in the event’s technical and promotional aspects.</li>
+                            </ul>
+                        </div>
+                        <div class="dancewize">
+                            <div class="details">2019 - PRESENT  |  DANCEWIZE NSW (VOLUNTEER)</div>
+                            <div class="title">Key Peer Educator</div>
+                            <ul class="list">
+                                <li>Provided harm reduction services at music festivals and events.</li>
+                                <li>Contributed to studies focused on drug overdoses at music festivals.</li>
+                            </ul>
+                        </div>
+                        <div class="farmers">
+                            <div class="details">2016 - 2017  |  SHIRE FARMERS MARKET</div>
+                            <div class="title">IT Consultant</div>
+                            <ul class="list">
+                                <li>Developed both front and back end of website, implementing provided business logic.</li>
+                                <li>Managed online presence and created content for social media profiles.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="type fadein">
+                    <div class="selector">
+                        <div class="inner">
+                            <div class="title">EDUCATION</div>
+                            <ul>
+                                <li class="compsci active" onclick="educationSelector('compsci')">BACHELOR OF COMP SCI</li>
+                                <li class="dipit" onclick="educationSelector('dipit')">DIPLOMA OF IT</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="compsci active">
+                            <div class="details">FEB 2019 - NOV 2021  |  UNIVERSITY OF WOLLONGONG</div>
+                            <div class="title">Bachelor of Computer Science</div>
+                            <ul class="list">
+                                <li>Majoring in Software Engineering and Big Data.</li>
+                                <li>Current Weighted Average Mark of 78.</li>
+                                <li>Received a Distinction or above in majority of completed classes.</li>
+                            </ul>
+                        </div>
+                        <div class="dipit">
+                            <div class="details">FEB 2019 - NOV 2019  |  UOW COLLEGE</div>
+                            <div class="title">Diploma of Information Technology</div>
+                            <ul class="list">
+                                <li>Received 3 Distinctions, and 3 High Distinctions.</li>
+                                <li>Equivalent to first year of Bachelor of Computer Science course.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact">
+                <h2 class="header fadein">CONTACT</h2>
+                <div class="big fadein">GET IN TOUCH</div>
+                <p class="small fadein">I’m currently open to any internship or employment opportunities, so please keep me in mind for any open positions you may have.</p>
+                <div class="buttons fadein">
+                    <a href="tel:+61 411 276 390"><div class="button">PHONE</div></a>
+                    <a href="mailto:me@michaelkilbane.com"><div class="button">EMAIL</div></a>
+                </div>
+            </div>
+
+            <div id="footer">
+                <div class="internal">
+                    <div class="text">Designed &amp; Developed by Michael Kilbane</div>
+                </div>
+            </div>
+
+            <div id="background">
+                <ul class="bubbles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <script src="js/preload.js"></script>
+        <script src="js/navscroll.js"></script>
+        <script src="js/expselectors.js"></script>
+        <script src="js/expscroller.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/fadein.js"></script>
+    </body>
+</html>
